@@ -51,10 +51,9 @@ body {
     background-color: #f9f9f9;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+    z-index: 1001; /* Ensure the dropdown content is above other elements */
     direction: rtl; /* Ensure dropdown respects RTL */
     right: 0; /* Align dropdown to the right */
-    margin-top: 46px; /* Adjust this value to lower the dropdown */
 }
 
 .dropdown-content a {
@@ -95,7 +94,7 @@ body {
 .content {
     padding: 20px;
     direction: rtl; /* Ensure content respects RTL */
-    margin-top: 120px; /* Ensure there is space for the fixed toolbar */
+    margin-top: 100px; /* Ensure there is space for the fixed toolbar */
 }
 
 .contact-me {
