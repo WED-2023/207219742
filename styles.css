@@ -77,7 +77,7 @@
 }
 
 .header-image {
-    width: 200px; /* Set a fixed width to make the image two times smaller */
+    width: 500px; /* Set a fixed width to make the image two times smaller */
     height: auto;
     display: block;
     margin: 10px auto; /* Center the image with auto margins */
