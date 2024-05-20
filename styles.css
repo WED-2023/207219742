@@ -95,7 +95,7 @@ body {
 .content {
     padding: 20px;
     direction: rtl; /* Ensure content respects RTL */
-    margin-top: 60px; /* Ensure there is space for the fixed toolbar */
+    margin-top: 80px; /* Ensure there is space for the fixed toolbar */
 }
 
 .contact-me {
