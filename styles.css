@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     direction: rtl; /* Set the direction to right-to-left for the main content */
+    padding-top: 60px; /* Add padding to top to prevent overlap with fixed toolbar */
 }
 
 .toolbar {
@@ -77,7 +78,7 @@ body {
 .header {
     text-align: center; /* Center the content in the header */
     direction: ltr; /* Ensure the header respects LTR */
-    padding: 80px 20px 20px; /* Add padding to top to prevent overlap with fixed toolbar */
+    padding: 20px;
 }
 
 .header-image {
