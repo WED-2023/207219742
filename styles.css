@@ -1,129 +1,133 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    direction: rtl; /* Set the direction to right-to-left for the main content */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  direction: rtl; /* Set the direction to right-to-left for the main content */
 }
 
 .toolbar {
-    background-color: #333;
-    overflow: hidden;
-    direction: rtl; /* Ensure toolbar respects RTL */
-    position: fixed; /* Fix the toolbar to the top of the page */
-    top: 0;
-    width: 100%; /* Make the toolbar span the full width of the page */
-    z-index: 1000; /* Ensure the toolbar is on top of other content */
+  background-color: #333;
+  overflow: hidden;
+  direction: rtl; /* Ensure toolbar respects RTL */
+  position: fixed; /* Fix the toolbar to the top of the page */
+  top: 0;
+  width: 100%; /* Make the toolbar span the full width of the page */
+  z-index: 1000; /* Ensure the toolbar is on top of other content */
 }
 
 .toolbar a {
-    float: right; /* Float elements to the right */
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+  float: right; /* Float elements to the right */
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 .toolbar a:hover {
-    background-color: #ddd;
-    color: black;
+  background-color: #ddd;
+  color: black;
 }
 
 .header {
-    text-align: center; /* Center the content in the header */
-    direction: ltr; /* Ensure the header respects LTR */
-    padding: 80px 20px 20px; /* Add padding to top to prevent overlap with fixed toolbar */
+  text-align: center; /* Center the content in the header */
+  direction: ltr; /* Ensure the header respects LTR */
+  padding: 80px 20px 20px; /* Add padding to top to prevent overlap with fixed toolbar */
 }
 
 .header-image {
-    width: 500px; /* Set the fixed width to 500px */
-    height: auto;
-    display: block;
-    margin: 10px auto; /* Center the image with auto margins */
+  width: 500px; /* Set the fixed width to 500px */
+  height: auto;
+  display: block;
+  margin: 10px auto; /* Center the image with auto margins */
 }
 
 .video-container {
-    text-align: center;
-    margin: 20px;
+  text-align: center;
+  margin: 20px;
 }
 
 .content {
-    padding: 20px;
-    direction: rtl; /* Ensure content respects RTL */
-    margin-top: 120px; /* Ensure there is space for the fixed toolbar */
+  padding: 20px;
+  direction: rtl; /* Ensure content respects RTL */
+  margin-top: 120px; /* Ensure there is space for the fixed toolbar */
 }
 
 .contact-me {
-    padding: 20px;
-    direction: rtl; /* Ensure the contact form respects RTL */
-    text-align: right; /* Align text to the right */
-    margin-top: 20px; /* Add margin to the top */
+  padding: 20px;
+  direction: rtl; /* Ensure the contact form respects RTL */
+  text-align: right; /* Align text to the right */
+  margin-top: 20px; /* Add margin to the top */
 }
 
 .contact-me form {
-    max-width: 600px;
-    margin: 0 0 0 auto; /* Align the form to the right */
+  max-width: 600px;
+  margin: 0 0 0 auto; /* Align the form to the right */
 }
 
 .contact-me label {
-    display: block;
-    margin: 10px 0 5px;
+  display: block;
+  margin: 10px 0 5px;
 }
 
 .contact-me input[type="text"],
 .contact-me textarea {
-    width: 100%;
-    padding: 10px;
-    margin: 5px 0 20px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    direction: rtl; /* Ensure these inputs respect RTL */
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  direction: rtl; /* Ensure these inputs respect RTL */
 }
 
 .contact-me textarea {
-    height: 200px; /* Increase the height to make the textarea longer */
+  height: 200px; /* Increase the height to make the textarea longer */
 }
 
 .contact-me input[type="email"] {
-    width: 100%;
-    padding: 10px;
-    margin: 5px 0 20px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    direction: ltr; /* Ensure this input respects LTR */
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  direction: ltr; /* Ensure this input respects LTR */
 }
 
 .contact-me input[type="submit"] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 .contact-me input[type="submit"]:hover {
-    background-color: #45a049;
+  background-color: #45a049;
 }
 
 .secondary-toolbar {
-    background-color: #333;
-    overflow: hidden;
-    direction: rtl; /* Ensure toolbar respects RTL */
-    width: 100%; /* Make the toolbar span the full width of the page */
-    z-index: 1000; /* Ensure the toolbar is on top of other content */
+  background-color: #333;
+  overflow: hidden;
+  direction: rtl; /* Ensure toolbar respects RTL */
+  width: 100%; /* Make the toolbar span the full width of the page */
+  z-index: 1000; /* Ensure the toolbar is on top of other content */
 }
 
 .secondary-toolbar a {
-    float: right; /* Float elements to the right */
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+  float: right; /* Float elements to the right */
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 .secondary-toolbar a:hover {
-    background-color: #ddd;
-    color: black;
+  background-color: #ddd;
+  color: black;
+}
+
+.qa {
+  direction: ltr;
 }
