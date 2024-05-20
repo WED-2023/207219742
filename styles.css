@@ -22,37 +22,33 @@
     color: black;
 }
 
-.dropdown {
-    float: right;
-    position: relative;
+
+Sure, here's the CSS code to style the new secondary toolbar:
+
+css
+Copy code
+.secondary-toolbar {
+    background-color: #333;
+    overflow: hidden;
+    direction: rtl; /* Ensure toolbar respects RTL */
+    position: fixed; /* Fix the toolbar to the top of the page */
+    top: 36px; /* Adjust the top position to align below the main toolbar */
+    width: 100%; /* Make the toolbar span the full width of the page */
+    z-index: 1000; /* Ensure the toolbar is on top of other content */
 }
 
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1001;
-    direction: rtl;
-    right: 0;
-}
-
-.dropdown-content a {
-    float: none;
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
+.secondary-toolbar a {
+    float: right; /* Float elements to the right */
     display: block;
+    color: #f2f2f2;
     text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
-.dropdown-content a:hover {
+.secondary-toolbar a:hover {
     background-color: #ddd;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
+    color: black;
 }
 
 .header {
